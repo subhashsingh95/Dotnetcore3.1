@@ -16,3 +16,8 @@ cp -r /var/lib/jenkins/workspace/dotnetUbuntu1/UbuntuScript/dotnetubuntu1.conf  
 cp -r /var/lib/jenkins/workspace/dotnetUbuntu1/UbuntuScript/subhash.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl start subhash.service
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> caa971f1c811ddc74a1a3534119941df902c4488
