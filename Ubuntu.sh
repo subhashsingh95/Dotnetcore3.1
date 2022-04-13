@@ -13,11 +13,8 @@ mkdir -p /var/www/dotnetubuntu1.com
 cp -R * /var/www/dotnetubuntu1.com
 chmod -R 775 /var/www/dotnetubuntu1.com
 cp -r /var/lib/jenkins/workspace/dotnetUbuntu1/UbuntuScript/dotnetubuntu1.conf  /etc/apache2/sites-enabled/
-cp -r /var/lib/jenkins/workspace/dotnetUbuntu1/UbuntuScript/subhash.service /etc/systemd/system/
+cp -r /var/lib/jenkins/workspace/dotnetUbuntu1/UbuntuScript/dotnetubuntu1.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl start dotnetubuntu1.service
-<<<<<<< HEAD
-=======
 
 
->>>>>>> caa971f1c811ddc74a1a3534119941df902c4488
