@@ -4,8 +4,8 @@ Description=Example .NET Web API App running on Apache
 [Service]
 
 User=root
-WorkingDirectory=/var/www/dotnetubuntu1.1.com
-ExecStart=/usr/bin/dotnet /var/www/dotnetubuntu1.1.com/WebApplication9.dll --urls=http://localhost:5008
+WorkingDirectory=/var/www/dotnetUbuntu1.1.com.com
+ExecStart=/usr/bin/dotnet /var/www/dotnetUbuntu1.1.com.com/WebApplication9.dll --urls=http://localhost:5008
 
 Restart=always
 [Install]
