@@ -32,3 +32,11 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Visual Studio Enterprise Subscription – MPN(36c7de9d-d66a-4965-8013-b052bff6bfb1)'
+    appType: 'webAppLinux'
+    WebAppName: 'dotnet-core-app'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    RuntimeStack: 'DOTNETCORE|3.1'
